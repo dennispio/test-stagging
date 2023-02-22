@@ -9,6 +9,11 @@
   "scripts": {
     "build": "tsc ./src/index.ts --outDir build"
   },
+  "files": [
+    "dist",
+    "dist/esm/node_modules",
+    "LICENSE"
+  ],
   "dependencies": {
     "@semantic-release/git": "^10.0.1",
     "@typescript-eslint/eslint-plugin": "^5.16.0",
@@ -19,7 +24,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "prettier": "^2.6.0",
-    "semantic-release": "^20.1.0",
+    "semantic-release": "19.0.3",
     "tsutils": "^3.21.0"
   },
   "publishConfig": {
