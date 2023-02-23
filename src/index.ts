@@ -3,8 +3,8 @@ module.exports = {
   extends: ['plugin:prettier/recommended', 'plugin:@typescript-eslint/recommended'],
   env: {
     browser: true,
-    node: true,
-    jest: true
+    jest: true,
+    node: true
   },
   plugins: ['@typescript-eslint/eslint-plugin', 'import', 'simple-import-sort'],
   parser: '@typescript-eslint/parser',
