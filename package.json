@@ -5,7 +5,7 @@
   "private": false,
   "main": "build/index.js",
   "name": "@dennispio/test-stagging",
-  "version": "6.0.0",
+  "version": "6.0.1",
   "scripts": {
     "build": "tsc ./src/index.ts --outDir build"
   },
