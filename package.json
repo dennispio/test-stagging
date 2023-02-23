@@ -3,8 +3,8 @@
   "description": "Base ESLint Config for web Projects",
   "license": "UNLICENSED",
   "private": false,
-  "name": "@dennispio/test-stagging",
   "main": "build/index.js",
+  "name": "@dennispio/test-stagging",
   "version": "3.0.0",
   "scripts": {
     "build": "tsc ./src/index.ts --outDir build"
