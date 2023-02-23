@@ -1,5 +1,5 @@
 {
-  "branches": ["main", "next", {"name": "beta", "prerelease": true}, {"name": "alpha", "prerelease": true}, {"name": "demo", "prerelease": true}],
+  "branches": ["main", "next", {"name": "beta", "prerelease": true}, {"name": "alpha", "prerelease": true}, {"name": "demo", "prerelease": true}, "next-major"],
   "plugins": [
   ["@semantic-release/commit-analyzer", {
       "preset": "angular",

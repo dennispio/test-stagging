@@ -329,8 +329,8 @@ module.exports = {
     'no-restricted-properties': [
       'error',
       {
-        object: 'arguments',
         property: 'callee',
+        object: 'arguments',
         message: 'arguments.callee is deprecated'
       },
       {
