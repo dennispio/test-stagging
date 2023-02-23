@@ -5,13 +5,13 @@
   "private": false,
   "main": "build/index.js",
   "name": "@dennispio/test-stagging",
-  "version": "5.0.1",
+  "version": "6.0.0",
   "scripts": {
     "build": "tsc ./src/index.ts --outDir build"
   },
   "files": [
-    "dist",
     "dist/esm/node_modules",
+    "dist",
     "LICENSE"
   ],
   "dependencies": {

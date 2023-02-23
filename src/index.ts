@@ -2,9 +2,9 @@ module.exports = {
   root: true,
   extends: ['plugin:prettier/recommended', 'plugin:@typescript-eslint/recommended'],
   env: {
-    browser: true,
     jest: true,
-    node: true
+    node: true,
+    browser: true
   },
   parser: '@typescript-eslint/parser',
   plugins: ['@typescript-eslint/eslint-plugin', 'import', 'simple-import-sort'],
@@ -329,8 +329,8 @@ module.exports = {
     'no-restricted-properties': [
       'error',
       {
-        property: 'callee',
         object: 'arguments',
+        property: 'callee',
         message: 'arguments.callee is deprecated'
       },
       {
