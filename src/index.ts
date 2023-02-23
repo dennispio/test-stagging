@@ -6,8 +6,8 @@ module.exports = {
     node: true,
     browser: true
   },
-  parser: '@typescript-eslint/parser',
   plugins: ['@typescript-eslint/eslint-plugin', 'import', 'simple-import-sort'],
+  parser: '@typescript-eslint/parser',
   settings: {
     'import/resolver': {
       node: {
