@@ -6,8 +6,8 @@ module.exports = {
     jest: true,
     node: true
   },
-  plugins: ['@typescript-eslint/eslint-plugin', 'import', 'simple-import-sort'],
   parser: '@typescript-eslint/parser',
+  plugins: ['@typescript-eslint/eslint-plugin', 'import', 'simple-import-sort'],
   settings: {
     'import/resolver': {
       node: {
