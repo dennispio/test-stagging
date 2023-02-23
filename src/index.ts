@@ -23,8 +23,8 @@ module.exports = {
       {
         jsx: 'never',
         ts: 'never',
-        js: 'never',
-        tsx: 'never'
+        tsx: 'never',
+        js: 'never'
       }
     ],
     '@typescript-eslint/no-duplicate-imports': ['error', { includeExports: true }],
