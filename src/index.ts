@@ -33,8 +33,8 @@ module.exports = {
     '@typescript-eslint/no-duplicate-imports': ['error', { includeExports: true }],
     'import/order': 'off',
     'no-duplicate-imports': 'off',
-    'no-shadow': 'off',
     'no-use-before-define': 'off',
+    'no-shadow': 'off',
     'padding-line-between-statements': [
       'error',
       { blankLine: 'always', prev: '*', next: 'return' }
