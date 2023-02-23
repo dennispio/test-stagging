@@ -10,8 +10,8 @@
     "build": "tsc ./src/index.ts --outDir build"
   },
   "files": [
-    "dist",
     "dist/esm/node_modules",
+    "dist",
     "LICENSE"
   ],
   "dependencies": {
