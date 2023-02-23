@@ -27,8 +27,8 @@ module.exports = {
         js: 'never'
       }
     ],
-    '@typescript-eslint/no-duplicate-imports': ['error', { includeExports: true }],
     '@typescript-eslint/no-shadow': ['error'],
+    '@typescript-eslint/no-duplicate-imports': ['error', { includeExports: true }],
     '@typescript-eslint/no-use-before-define': ['error'],
     'import/prefer-default-export': 'off',
     'import/order': 'off',
