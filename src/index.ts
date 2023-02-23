@@ -335,8 +335,8 @@ module.exports = {
       },
       {
         object: 'global',
-        property: 'isFinite',
-        message: 'Please use Number.isFinite instead'
+        message: 'Please use Number.isFinite instead',
+        property: 'isFinite'
       },
       {
         object: 'self',
