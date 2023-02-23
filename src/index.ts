@@ -249,8 +249,8 @@ module.exports = {
       'off',
       {
         ignore: [],
-        ignoreArrayIndexes: true,
         enforceConst: true,
+        ignoreArrayIndexes: true,
         detectObjects: false
       }
     ],
