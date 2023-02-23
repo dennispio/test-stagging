@@ -250,8 +250,8 @@ module.exports = {
       {
         ignore: [],
         enforceConst: true,
-        ignoreArrayIndexes: true,
-        detectObjects: false
+        detectObjects: false,
+        ignoreArrayIndexes: true
       }
     ],
 
