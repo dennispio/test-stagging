@@ -18,8 +18,8 @@ module.exports = {
   ignorePatterns: ['dist', 'lib', 'build', 'public'],
   rules: {
     'import/extensions': [
-      'ignorePackages',
       'error',
+      'ignorePackages',
       {
         jsx: 'never',
         ts: 'never',
