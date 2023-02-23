@@ -36,8 +36,8 @@ module.exports = {
     'no-use-before-define': 'off',
     'no-shadow': 'off',
     'padding-line-between-statements': [
-      'error',
-      { blankLine: 'always', prev: '*', next: 'return' }
+      { blankLine: 'always', prev: '*', next: 'return' },
+      'error'
     ],
     'simple-import-sort/exports': ['error'],
     'simple-import-sort/imports': [
