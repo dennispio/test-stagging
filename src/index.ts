@@ -372,8 +372,8 @@ module.exports = {
         message: 'Please use Object.defineProperty instead.'
       },
       {
-        object: 'Math',
         property: 'pow',
+        object: 'Math',
         message: 'Use the exponentiation operator (**) instead.'
       }
     ],
