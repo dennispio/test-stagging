@@ -28,8 +28,8 @@ module.exports = {
       }
     ],
     '@typescript-eslint/no-shadow': ['error'],
-    '@typescript-eslint/no-use-before-define': ['error'],
     'import/prefer-default-export': 'off',
+    '@typescript-eslint/no-use-before-define': ['error'],
     '@typescript-eslint/no-duplicate-imports': ['error', { includeExports: true }],
     'import/order': 'off',
     'no-duplicate-imports': 'off',
