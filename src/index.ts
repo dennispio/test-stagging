@@ -359,8 +359,8 @@ module.exports = {
         message: 'Please use Number.isNaN instead'
       },
       {
-        object: 'window',
         property: 'isNaN',
+        object: 'window',
         message: 'Please use Number.isNaN instead'
       },
       {
