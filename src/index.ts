@@ -31,9 +31,9 @@ module.exports = {
     'import/prefer-default-export': 'off',
     '@typescript-eslint/no-use-before-define': ['error'],
     '@typescript-eslint/no-duplicate-imports': ['error', { includeExports: true }],
+    'no-use-before-define': 'off',
     'import/order': 'off',
     'no-duplicate-imports': 'off',
-    'no-use-before-define': 'off',
     'no-shadow': 'off',
     'padding-line-between-statements': [
       { blankLine: 'always', prev: '*', next: 'return' },
