@@ -3,8 +3,8 @@ module.exports = {
   extends: ['plugin:prettier/recommended', 'plugin:@typescript-eslint/recommended'],
   env: {
     jest: true,
+    browser: true,
     node: true,
-    browser: true
   },
   plugins: ['@typescript-eslint/eslint-plugin', 'import', 'simple-import-sort'],
   parser: '@typescript-eslint/parser',
@@ -23,18 +23,18 @@ module.exports = {
       {
         jsx: 'never',
         js: 'never',
+        tsx: 'never',
         ts: 'never',
-        tsx: 'never'
       }
     ],
     '@typescript-eslint/no-shadow': ['error'],
     'import/prefer-default-export': 'off',
     '@typescript-eslint/no-use-before-define': ['error'],
     '@typescript-eslint/no-duplicate-imports': ['error', { includeExports: true }],
+    'no-shadow': 'off',
+    'no-use-before-define': 'off',
     'import/order': 'off',
     'no-duplicate-imports': 'off',
-    'no-use-before-define': 'off',
-    'no-shadow': 'off',
     'padding-line-between-statements': [
       { blankLine: 'always', prev: '*', next: 'return' },
       'error'
