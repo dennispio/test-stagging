@@ -22,14 +22,14 @@ module.exports = {
       'ignorePackages',
       {
         jsx: 'never',
+        js: 'never',
         ts: 'never',
-        tsx: 'never',
-        js: 'never'
+        tsx: 'never'
       }
     ],
     '@typescript-eslint/no-shadow': ['error'],
-    '@typescript-eslint/no-use-before-define': ['error'],
     'import/prefer-default-export': 'off',
+    '@typescript-eslint/no-use-before-define': ['error'],
     '@typescript-eslint/no-duplicate-imports': ['error', { includeExports: true }],
     'import/order': 'off',
     'no-duplicate-imports': 'off',
@@ -279,14 +279,14 @@ module.exports = {
     // disallows creating new instances of String, Number, and Boolean
     // https://eslint.org/docs/rules/no-new-wrappers
     'no-new-wrappers': 'error',
-
+    
+    // disallow use of (old style) octal literals
+    // https://eslint.org/docs/rules/no-octal
+    'no-octal': 'error',
     // Disallow \8 and \9 escape sequences in string literals
     // https://eslint.org/docs/rules/no-nonoctal-decimal-escape
     'no-nonoctal-decimal-escape': 'error',
 
-    // disallow use of (old style) octal literals
-    // https://eslint.org/docs/rules/no-octal
-    'no-octal': 'error',
 
     // disallow use of octal escape sequences in string literals, such as
     // var foo = 'Copyright \251';
@@ -307,8 +307,8 @@ module.exports = {
           'ctx', // for Koa routing
           'context', // for Koa routing
           'req', // for Express requests
-          'request', // for Express requests
           'res', // for Express responses
+          'request', // for Express requests
           'response', // for Express responses
           '$scope', // for Angular 1 scopes
           'staticContext' // for ReactRouter context
