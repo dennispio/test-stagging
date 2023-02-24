@@ -386,10 +386,6 @@ module.exports = {
     // https://eslint.org/docs/rules/no-return-await
     'no-return-await': 'error',
 
-    // disallow use of `javascript:` urls.
-    // https://eslint.org/docs/rules/no-script-url
-    'no-script-url': 'error',
-
     // disallow self assignment
     // https://eslint.org/docs/rules/no-self-assign
     'no-self-assign': [
