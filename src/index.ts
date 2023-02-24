@@ -307,8 +307,8 @@ module.exports = {
           'ctx', // for Koa routing
           'context', // for Koa routing
           'req', // for Express requests
-          'request', // for Express requests
           'res', // for Express responses
+          'request', // for Express requests
           'response', // for Express responses
           '$scope', // for Angular 1 scopes
           'staticContext' // for ReactRouter context
