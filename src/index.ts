@@ -279,14 +279,14 @@ module.exports = {
     // disallows creating new instances of String, Number, and Boolean
     // https://eslint.org/docs/rules/no-new-wrappers
     'no-new-wrappers': 'error',
-
+    
+    // disallow use of (old style) octal literals
+    // https://eslint.org/docs/rules/no-octal
+    'no-octal': 'error',
     // Disallow \8 and \9 escape sequences in string literals
     // https://eslint.org/docs/rules/no-nonoctal-decimal-escape
     'no-nonoctal-decimal-escape': 'error',
 
-    // disallow use of (old style) octal literals
-    // https://eslint.org/docs/rules/no-octal
-    'no-octal': 'error',
 
     // disallow use of octal escape sequences in string literals, such as
     // var foo = 'Copyright \251';
