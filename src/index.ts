@@ -22,9 +22,9 @@ module.exports = {
       'ignorePackages',
       {
         jsx: 'never',
+        js: 'never',
         ts: 'never',
-        tsx: 'never',
-        js: 'never'
+        tsx: 'never'
       }
     ],
     '@typescript-eslint/no-shadow': ['error'],
