@@ -1,7 +1,7 @@
 name: Create and publish a package
 on:
   push:
-    branches: ['main', 'demo', 'aplha', 'beta', 'next', 'last-release', "12.x"]
+    branches: ['main', 'demo', 'aplha', 'beta', 'next', 'last-release', "+([0-9])?(.{+([0-9]),x}).x"]
 jobs:
 
   release:
