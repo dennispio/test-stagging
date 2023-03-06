@@ -23,8 +23,8 @@ module.exports = {
       {
         js: 'never',
         jsx: 'never',
-        tsx: 'never',
         ts: 'never',
+        tsx: 'never',
       }
     ],
     '@typescript-eslint/no-shadow': ['error'],
